@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700;800;900&display=swap"
+      rel="stylesheet">
+   <link rel="stylesheet" href="src/css/style.css">
+   <title>Document</title>
+</head>
+<body>
+   <section class="general-wrapper">
+
+      <section class="top-blok">
+         <button class="top-blok__top-btc" id="btc-beginning">
+            Начать сначала
+         </button>
+         <h2 class="top-blok__text" id="top-text">Отгадай от 1 до 20</h2>
+      </section>
+      <section class="center">
+         <div class="center__separator"></div>
+         <div class="center__secret-box">
+            <p class="center__secretNumber" id="secretNumber">???</p>
+         </div>
+      </section>
+
+      <section class="bottom">
+
+         <div class="bottom__wrapper-left">
+            <div>
+               <input type="number" class="bottom__input-number" id="input-number">
+            </div>
+            <div>
+               <button class="bottom__buttom-btc" id="buttom-btc">Проверить</button>
+            </div>
+         </div>
+         
+         <div class="bottom__wrapper-right">
+            <p class="bottom__go-gemes" id="go-gemes">Начни угадывать</p>
+            <p class="bottom__attempt">У вас попыток <span id="attempt-text">20</span></p>
+            <p class="bottom__result">Ваш лучший результат <span id="result-text">0</span></p>
+            <p class="bottom__result">Колличество повторов <span id="number-repetitions">0</span></p>
+         </div>
+
+      </section>
+   </section>
+   <script src="js/script.js"></script>
+</body>
+
+</html>
